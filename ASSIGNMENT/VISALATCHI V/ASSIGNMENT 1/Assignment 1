@@ -1,0 +1,17 @@
+1. Split this string
+In [1]:
+s = "Hi there Sam!"
+print(s.split())
+['Hi', 'there', 'Sam!']
+2. Use. format() to print the following string.
+Output should be: The diameter of Earth is 12742 kilometers.
+In [3]:
+msg = "The diameter of {planet} is {diameter} kilometers"
+print(msg.format(planet="Earth", diameter=str(12742)))
+The diameter of Earth is 12742 kilometers
+3. In this nest dictionary grab the word "hello"
+In [4]:
+d = {'k1':[1,2,3,{'tricky':['oh','man','inception',{'target':[1,2,3,'hello']}]}]}
+d['k1'][3]['tricky'][3]['target'][3]
+Out[4]:
+'hello'
